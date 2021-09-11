@@ -1,0 +1,7 @@
+Wave_VS/
+a.exe
+*.mp4
+*.ipynb_checkpoints
+.vs/Example_test/v16/.suo
+.vs/Example_test/v16/Browse.VC.db
+.vs/Example_test/v16/ipch/AutoPCH/d5dbe49259bc9c9e/PARALLEL_WAVE_SOLVER.ipch

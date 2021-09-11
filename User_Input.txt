@@ -1,0 +1,28 @@
+// This file is used as User input for the Wave Equation simulation
+// will be read in during the set-up of the simulation and post processing
+// y_max		grid size in y direction, double [m]
+15.0
+// x_max		grid size in x direction, double  [m]
+10.0
+// imax			number of grid points in x direction, int
+300
+// jmax			number of grid points in y direction, int
+300
+// t_max		Simulation timelength, double [s]
+6
+// dt_out		Time-steps for output to file, double [s]
+0.03
+// c			Speed of wave, double [m/s]
+2
+// r_distrubance	Radius of sinusoidal disturbance, double  [m]
+1
+// x_disturbance	x position of disturbance, double  [m]
+8
+// y_disturbance	y position of disturbance, double  [m]
+12
+// y_barrier		y position of a Neumann Barrier spanning half the domain from x = 0 to 0.5*x_max. If set to 0, no barrier is set.double  [m]
+0
+// 0 or 1 		If set to 1 periodic B.C. will be set everywhere. If 0 then Non-Periodic B.C. and please set Neumann or Direchlet below.
+1
+// 0 or 1		Only for Non-Periodic B.C., if 0 Neumann B.C. and if 1 then Direchlet 
+0

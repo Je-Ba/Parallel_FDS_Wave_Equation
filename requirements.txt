@@ -1,0 +1,5 @@
+numpy
+pylab
+matplotlib
+IPython
+ffmpeg
